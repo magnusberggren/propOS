@@ -6,6 +6,58 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8C1195E52EEB152A0067D80A /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1195E42EEB15290067D80A /* Wallpaper.swift */; };
+		8C1195EC2EEB317C0067D80A /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1195EA2EEB317C0067D80A /* GlassButton.swift */; };
+		8C1195ED2EEB317C0067D80A /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1195EB2EEB317C0067D80A /* GlassCard.swift */; };
+		8C1195F02EEB318B0067D80A /* GlassEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1195EE2EEB318B0067D80A /* GlassEffects.swift */; };
+		8C1195F12EEB318B0067D80A /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1195EF2EEB318B0067D80A /* Gradients.swift */; };
+		8C1195F32EEB31C40067D80A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1195F22EEB31C40067D80A /* UserProfile.swift */; };
+		8C24FB532EEAF80A00EC349F /* DeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB4F2EEAF80A00EC349F /* DeviceState.swift */; };
+		8C24FB542EEAF80A00EC349F /* PropNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB522EEAF80A00EC349F /* PropNotification.swift */; };
+		8C24FB552EEAF80A00EC349F /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB4D2EEAF80A00EC349F /* AppMode.swift */; };
+		8C24FB562EEAF80A00EC349F /* NetworkMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB502EEAF80A00EC349F /* NetworkMessage.swift */; };
+		8C24FB572EEAF80A00EC349F /* CallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB4E2EEAF80A00EC349F /* CallState.swift */; };
+		8C24FB582EEAF80A00EC349F /* PeerDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB512EEAF80A00EC349F /* PeerDevice.swift */; };
+		8C24FB5B2EEAF81700EC349F /* MultipeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB592EEAF81700EC349F /* MultipeerService.swift */; };
+		8C24FB5C2EEAF81700EC349F /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB5A2EEAF81700EC349F /* TimeController.swift */; };
+		8C24FB602EEAF82000EC349F /* ControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB5E2EEAF82000EC349F /* ControllerViewModel.swift */; };
+		8C24FB612EEAF82000EC349F /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB5D2EEAF82000EC349F /* AppViewModel.swift */; };
+		8C24FB622EEAF82000EC349F /* MimicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB5F2EEAF82000EC349F /* MimicViewModel.swift */; };
+		8C24FB682EEAF83100EC349F /* NotificationControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB662EEAF83100EC349F /* NotificationControlView.swift */; };
+		8C24FB692EEAF83100EC349F /* ControllerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB642EEAF83100EC349F /* ControllerMainView.swift */; };
+		8C24FB6A2EEAF83100EC349F /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB652EEAF83100EC349F /* DeviceListView.swift */; };
+		8C24FB6B2EEAF83100EC349F /* TimeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB672EEAF83100EC349F /* TimeControlView.swift */; };
+		8C24FB6C2EEAF83100EC349F /* CallControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB632EEAF83100EC349F /* CallControlView.swift */; };
+		8C24FB6E2EEAF84C00EC349F /* ModeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB6D2EEAF84C00EC349F /* ModeSelectionView.swift */; };
+		8C24FB722EEAF85500EC349F /* IncomingCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB712EEAF85500EC349F /* IncomingCallView.swift */; };
+		8C24FB732EEAF85500EC349F /* CallerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB702EEAF85500EC349F /* CallerInfoView.swift */; };
+		8C24FB742EEAF85500EC349F /* CallActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB6F2EEAF85500EC349F /* CallActionButtons.swift */; };
+		8C24FB782EEAF85D00EC349F /* TimeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB772EEAF85D00EC349F /* TimeDisplayView.swift */; };
+		8C24FB792EEAF85D00EC349F /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB752EEAF85D00EC349F /* LockScreenView.swift */; };
+		8C24FB7A2EEAF85D00EC349F /* NotificationBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB762EEAF85D00EC349F /* NotificationBannerView.swift */; };
+		8C24FB7C2EEAF86500EC349F /* MimicContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB7B2EEAF86500EC349F /* MimicContainerView.swift */; };
+		8C24FB7F2EEAF87900EC349F /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB7E2EEAF87900EC349F /* StatusBar.swift */; };
+		8C24FB802EEAF87900EC349F /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB7D2EEAF87900EC349F /* BlurEffectView.swift */; };
+		8C24FB842EEAF88000EC349F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB822EEAF88000EC349F /* Fonts.swift */; };
+		8C24FB852EEAF88000EC349F /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB832EEAF88000EC349F /* Spacing.swift */; };
+		8C24FB862EEAF88000EC349F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24FB812EEAF88000EC349F /* Colors.swift */; };
+		C100000000000001TEMPLATE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000000000002TEMPLATE /* Template.swift */; };
+		C100000000000003TEMPLATE /* TemplateStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000000000004TEMPLATE /* TemplateStorageService.swift */; };
+		C100000000000005TEMPLATE /* TemplatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000000000006TEMPLATE /* TemplatePickerView.swift */; };
+		C100000000000007TEMPLATE /* SaveTemplateSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000000000008TEMPLATE /* SaveTemplateSheet.swift */; };
+		C200000000000001CONTACT /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200000000000002CONTACT /* Contact.swift */; };
+		C200000000000003CHARPHONE /* CharacterPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200000000000004CHARPHONE /* CharacterPhone.swift */; };
+		C200000000000005CPHONESVC /* CharacterPhoneStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200000000000006CPHONESVC /* CharacterPhoneStorageService.swift */; };
+		C300000000000001PHOSELECT /* PhoneSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300000000000002PHOSELECT /* PhoneSelectorView.swift */; };
+		C300000000000003CONTGRID /* ContactGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300000000000004CONTGRID /* ContactGridView.swift */; };
+		C300000000000005CONTACT /* ContactActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300000000000006CONTACT /* ContactActionView.swift */; };
+		C300000000000007PHOEDIT /* PhoneEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300000000000008PHOEDIT /* PhoneEditorSheet.swift */; };
+		C300000000000009CONTEDIT /* ContactEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30000000000000ACONTEDIT /* ContactEditorSheet.swift */; };
+		C400000000000001ONBOARD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400000000000002ONBOARD /* OnboardingView.swift */; };
+		C500000000000001PROFILE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C500000000000002PROFILE /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8C24FB1C2EEAF59E00EC349F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +76,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C1195E42EEB15290067D80A /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+		8C1195EA2EEB317C0067D80A /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		8C1195EB2EEB317C0067D80A /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		8C1195EE2EEB318B0067D80A /* GlassEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassEffects.swift; sourceTree = "<group>"; };
+		8C1195EF2EEB318B0067D80A /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		8C1195F22EEB31C40067D80A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		8C24FB0E2EEAF59C00EC349F /* PropPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C24FB1B2EEAF59E00EC349F /* PropPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C24FB252EEAF59E00EC349F /* PropPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C24FB4D2EEAF80A00EC349F /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
+		8C24FB4E2EEAF80A00EC349F /* CallState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallState.swift; sourceTree = "<group>"; };
+		8C24FB4F2EEAF80A00EC349F /* DeviceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceState.swift; sourceTree = "<group>"; };
+		8C24FB502EEAF80A00EC349F /* NetworkMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMessage.swift; sourceTree = "<group>"; };
+		8C24FB512EEAF80A00EC349F /* PeerDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerDevice.swift; sourceTree = "<group>"; };
+		8C24FB522EEAF80A00EC349F /* PropNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropNotification.swift; sourceTree = "<group>"; };
+		8C24FB592EEAF81700EC349F /* MultipeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerService.swift; sourceTree = "<group>"; };
+		8C24FB5A2EEAF81700EC349F /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
+		8C24FB5D2EEAF82000EC349F /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		8C24FB5E2EEAF82000EC349F /* ControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerViewModel.swift; sourceTree = "<group>"; };
+		8C24FB5F2EEAF82000EC349F /* MimicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimicViewModel.swift; sourceTree = "<group>"; };
+		8C24FB632EEAF83100EC349F /* CallControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallControlView.swift; sourceTree = "<group>"; };
+		8C24FB642EEAF83100EC349F /* ControllerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerMainView.swift; sourceTree = "<group>"; };
+		8C24FB652EEAF83100EC349F /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		8C24FB662EEAF83100EC349F /* NotificationControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationControlView.swift; sourceTree = "<group>"; };
+		8C24FB672EEAF83100EC349F /* TimeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeControlView.swift; sourceTree = "<group>"; };
+		8C24FB6D2EEAF84C00EC349F /* ModeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionView.swift; sourceTree = "<group>"; };
+		8C24FB6F2EEAF85500EC349F /* CallActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallActionButtons.swift; sourceTree = "<group>"; };
+		8C24FB702EEAF85500EC349F /* CallerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerInfoView.swift; sourceTree = "<group>"; };
+		8C24FB712EEAF85500EC349F /* IncomingCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCallView.swift; sourceTree = "<group>"; };
+		8C24FB752EEAF85D00EC349F /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		8C24FB762EEAF85D00EC349F /* NotificationBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBannerView.swift; sourceTree = "<group>"; };
+		8C24FB772EEAF85D00EC349F /* TimeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayView.swift; sourceTree = "<group>"; };
+		8C24FB7B2EEAF86500EC349F /* MimicContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimicContainerView.swift; sourceTree = "<group>"; };
+		8C24FB7D2EEAF87900EC349F /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
+		8C24FB7E2EEAF87900EC349F /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+		8C24FB812EEAF88000EC349F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8C24FB822EEAF88000EC349F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		8C24FB832EEAF88000EC349F /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		C100000000000002TEMPLATE /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		C100000000000004TEMPLATE /* TemplateStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateStorageService.swift; sourceTree = "<group>"; };
+		C100000000000006TEMPLATE /* TemplatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePickerView.swift; sourceTree = "<group>"; };
+		C100000000000008TEMPLATE /* SaveTemplateSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTemplateSheet.swift; sourceTree = "<group>"; };
+		C200000000000002CONTACT /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		C200000000000004CHARPHONE /* CharacterPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPhone.swift; sourceTree = "<group>"; };
+		C200000000000006CPHONESVC /* CharacterPhoneStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPhoneStorageService.swift; sourceTree = "<group>"; };
+		C300000000000002PHOSELECT /* PhoneSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSelectorView.swift; sourceTree = "<group>"; };
+		C300000000000004CONTGRID /* ContactGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGridView.swift; sourceTree = "<group>"; };
+		C300000000000006CONTACT /* ContactActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactActionView.swift; sourceTree = "<group>"; };
+		C300000000000008PHOEDIT /* PhoneEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneEditorSheet.swift; sourceTree = "<group>"; };
+		C30000000000000ACONTEDIT /* ContactEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditorSheet.swift; sourceTree = "<group>"; };
+		C400000000000002ONBOARD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C500000000000002PROFILE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8C24FB882EEAFA7200EC349F /* Exceptions for "PropPhone" folder in "PropPhone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8C24FB0D2EEAF59C00EC349F /* PropPhone */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8C24FB102EEAF59C00EC349F /* PropPhone */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8C24FB882EEAFA7200EC349F /* Exceptions for "PropPhone" folder in "PropPhone" target */,
+			);
 			path = PropPhone;
 			sourceTree = "<group>";
 		};
@@ -75,6 +189,9 @@
 		8C24FB052EEAF59C00EC349F = {
 			isa = PBXGroup;
 			children = (
+				8C24FB3B2EEAF72700EC349F /* Core */,
+				8C24FB3A2EEAF72100EC349F /* Features */,
+				8C24FB392EEAF62000EC349F /* UI */,
 				8C24FB102EEAF59C00EC349F /* PropPhone */,
 				8C24FB1E2EEAF59E00EC349F /* PropPhoneTests */,
 				8C24FB282EEAF59E00EC349F /* PropPhoneUITests */,
@@ -90,6 +207,172 @@
 				8C24FB252EEAF59E00EC349F /* PropPhoneUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8C24FB392EEAF62000EC349F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB462EEAF76F00EC349F /* Components */,
+				8C24FB452EEAF76600EC349F /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8C24FB3A2EEAF72100EC349F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB432EEAF75500EC349F /* ModeSelection */,
+				8C24FB3C2EEAF72E00EC349F /* Controller */,
+				8C24FB402EEAF74000EC349F /* Mimic */,
+				C400000000000004ONBGRP /* Onboarding */,
+				C500000000000003PROFILEGRP /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C500000000000003PROFILEGRP /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C500000000000002PROFILE /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C400000000000004ONBGRP /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C400000000000002ONBOARD /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8C24FB3B2EEAF72700EC349F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB3F2EEAF73C00EC349F /* Models */,
+				8C24FB3E2EEAF73800EC349F /* Services */,
+				8C24FB3D2EEAF73400EC349F /* ViewModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8C24FB3C2EEAF72E00EC349F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB632EEAF83100EC349F /* CallControlView.swift */,
+				C300000000000006CONTACT /* ContactActionView.swift */,
+				C30000000000000ACONTEDIT /* ContactEditorSheet.swift */,
+				C300000000000004CONTGRID /* ContactGridView.swift */,
+				8C24FB642EEAF83100EC349F /* ControllerMainView.swift */,
+				8C24FB652EEAF83100EC349F /* DeviceListView.swift */,
+				8C24FB662EEAF83100EC349F /* NotificationControlView.swift */,
+				C300000000000008PHOEDIT /* PhoneEditorSheet.swift */,
+				C300000000000002PHOSELECT /* PhoneSelectorView.swift */,
+				C100000000000008TEMPLATE /* SaveTemplateSheet.swift */,
+				C100000000000006TEMPLATE /* TemplatePickerView.swift */,
+				8C24FB672EEAF83100EC349F /* TimeControlView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C24FB3D2EEAF73400EC349F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB5D2EEAF82000EC349F /* AppViewModel.swift */,
+				8C24FB5E2EEAF82000EC349F /* ControllerViewModel.swift */,
+				8C24FB5F2EEAF82000EC349F /* MimicViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C24FB3E2EEAF73800EC349F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C200000000000006CPHONESVC /* CharacterPhoneStorageService.swift */,
+				8C24FB592EEAF81700EC349F /* MultipeerService.swift */,
+				8C24FB5A2EEAF81700EC349F /* TimeController.swift */,
+				C100000000000004TEMPLATE /* TemplateStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8C24FB3F2EEAF73C00EC349F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C1195E42EEB15290067D80A /* Wallpaper.swift */,
+				8C24FB4D2EEAF80A00EC349F /* AppMode.swift */,
+				8C24FB4E2EEAF80A00EC349F /* CallState.swift */,
+				C200000000000004CHARPHONE /* CharacterPhone.swift */,
+				C200000000000002CONTACT /* Contact.swift */,
+				8C24FB4F2EEAF80A00EC349F /* DeviceState.swift */,
+				8C24FB502EEAF80A00EC349F /* NetworkMessage.swift */,
+				8C1195F22EEB31C40067D80A /* UserProfile.swift */,
+				8C24FB512EEAF80A00EC349F /* PeerDevice.swift */,
+				8C24FB522EEAF80A00EC349F /* PropNotification.swift */,
+				C100000000000002TEMPLATE /* Template.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C24FB402EEAF74000EC349F /* Mimic */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB442EEAF76100EC349F /* LockScreen */,
+				8C24FB422EEAF74F00EC349F /* IncomingCall */,
+				8C24FB7B2EEAF86500EC349F /* MimicContainerView.swift */,
+			);
+			path = Mimic;
+			sourceTree = "<group>";
+		};
+		8C24FB422EEAF74F00EC349F /* IncomingCall */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB6F2EEAF85500EC349F /* CallActionButtons.swift */,
+				8C24FB702EEAF85500EC349F /* CallerInfoView.swift */,
+				8C24FB712EEAF85500EC349F /* IncomingCallView.swift */,
+			);
+			path = IncomingCall;
+			sourceTree = "<group>";
+		};
+		8C24FB432EEAF75500EC349F /* ModeSelection */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB6D2EEAF84C00EC349F /* ModeSelectionView.swift */,
+			);
+			path = ModeSelection;
+			sourceTree = "<group>";
+		};
+		8C24FB442EEAF76100EC349F /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8C24FB752EEAF85D00EC349F /* LockScreenView.swift */,
+				8C24FB762EEAF85D00EC349F /* NotificationBannerView.swift */,
+				8C24FB772EEAF85D00EC349F /* TimeDisplayView.swift */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+		8C24FB452EEAF76600EC349F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8C1195EE2EEB318B0067D80A /* GlassEffects.swift */,
+				8C1195EF2EEB318B0067D80A /* Gradients.swift */,
+				8C24FB812EEAF88000EC349F /* Colors.swift */,
+				8C24FB822EEAF88000EC349F /* Fonts.swift */,
+				8C24FB832EEAF88000EC349F /* Spacing.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8C24FB462EEAF76F00EC349F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C1195EA2EEB317C0067D80A /* GlassButton.swift */,
+				8C1195EB2EEB317C0067D80A /* GlassCard.swift */,
+				8C24FB7D2EEAF87900EC349F /* BlurEffectView.swift */,
+				8C24FB7E2EEAF87900EC349F /* StatusBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +519,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C24FB6E2EEAF84C00EC349F /* ModeSelectionView.swift in Sources */,
+				8C24FB602EEAF82000EC349F /* ControllerViewModel.swift in Sources */,
+				8C1195F02EEB318B0067D80A /* GlassEffects.swift in Sources */,
+				8C1195F12EEB318B0067D80A /* Gradients.swift in Sources */,
+				8C24FB612EEAF82000EC349F /* AppViewModel.swift in Sources */,
+				8C24FB622EEAF82000EC349F /* MimicViewModel.swift in Sources */,
+				8C24FB532EEAF80A00EC349F /* DeviceState.swift in Sources */,
+				8C24FB542EEAF80A00EC349F /* PropNotification.swift in Sources */,
+				8C24FB552EEAF80A00EC349F /* AppMode.swift in Sources */,
+				8C24FB5B2EEAF81700EC349F /* MultipeerService.swift in Sources */,
+				8C24FB722EEAF85500EC349F /* IncomingCallView.swift in Sources */,
+				8C24FB7C2EEAF86500EC349F /* MimicContainerView.swift in Sources */,
+				8C1195F32EEB31C40067D80A /* UserProfile.swift in Sources */,
+				8C24FB732EEAF85500EC349F /* CallerInfoView.swift in Sources */,
+				8C24FB742EEAF85500EC349F /* CallActionButtons.swift in Sources */,
+				8C24FB5C2EEAF81700EC349F /* TimeController.swift in Sources */,
+				8C24FB7F2EEAF87900EC349F /* StatusBar.swift in Sources */,
+				8C24FB802EEAF87900EC349F /* BlurEffectView.swift in Sources */,
+				8C24FB682EEAF83100EC349F /* NotificationControlView.swift in Sources */,
+				8C24FB692EEAF83100EC349F /* ControllerMainView.swift in Sources */,
+				8C1195EC2EEB317C0067D80A /* GlassButton.swift in Sources */,
+				8C1195ED2EEB317C0067D80A /* GlassCard.swift in Sources */,
+				8C24FB782EEAF85D00EC349F /* TimeDisplayView.swift in Sources */,
+				8C24FB792EEAF85D00EC349F /* LockScreenView.swift in Sources */,
+				8C24FB7A2EEAF85D00EC349F /* NotificationBannerView.swift in Sources */,
+				8C24FB6A2EEAF83100EC349F /* DeviceListView.swift in Sources */,
+				8C24FB6B2EEAF83100EC349F /* TimeControlView.swift in Sources */,
+				8C24FB6C2EEAF83100EC349F /* CallControlView.swift in Sources */,
+				8C24FB562EEAF80A00EC349F /* NetworkMessage.swift in Sources */,
+				8C24FB572EEAF80A00EC349F /* CallState.swift in Sources */,
+				8C1195E52EEB152A0067D80A /* Wallpaper.swift in Sources */,
+				8C24FB582EEAF80A00EC349F /* PeerDevice.swift in Sources */,
+				8C24FB842EEAF88000EC349F /* Fonts.swift in Sources */,
+				8C24FB852EEAF88000EC349F /* Spacing.swift in Sources */,
+				8C24FB862EEAF88000EC349F /* Colors.swift in Sources */,
+				C100000000000001TEMPLATE /* Template.swift in Sources */,
+				C100000000000003TEMPLATE /* TemplateStorageService.swift in Sources */,
+				C100000000000005TEMPLATE /* TemplatePickerView.swift in Sources */,
+				C100000000000007TEMPLATE /* SaveTemplateSheet.swift in Sources */,
+				C200000000000001CONTACT /* Contact.swift in Sources */,
+				C200000000000003CHARPHONE /* CharacterPhone.swift in Sources */,
+				C200000000000005CPHONESVC /* CharacterPhoneStorageService.swift in Sources */,
+				C300000000000001PHOSELECT /* PhoneSelectorView.swift in Sources */,
+				C300000000000003CONTGRID /* ContactGridView.swift in Sources */,
+				C300000000000005CONTACT /* ContactActionView.swift in Sources */,
+				C300000000000007PHOEDIT /* PhoneEditorSheet.swift in Sources */,
+				C300000000000009CONTEDIT /* ContactEditorSheet.swift in Sources */,
+				C400000000000001ONBOARD /* OnboardingView.swift in Sources */,
+				C500000000000001PROFILE /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,11 +732,14 @@
 				DEVELOPMENT_TEAM = AURJLA4GTL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PropPhone/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "PropPhone needs local network access to communicate with other devices for \n  controlling hero phones on set.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,11 +767,14 @@
 				DEVELOPMENT_TEAM = AURJLA4GTL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PropPhone/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "PropPhone needs local network access to communicate with other devices for \n  controlling hero phones on set.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
