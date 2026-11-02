@@ -3,15 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>PropPhone needs local network access to connect Controller and Mimic devices for remote screen control.</string>
+	<string>PropOS connects the controller and prop phones on set over the local network.</string>
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_prop-phone._tcp</string>
 		<string>_prop-phone._udp</string>
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>PropPhone needs access to your photo library to set custom wallpapers for the lock screen.</string>
+	<string>PropOS uses your photo library for wallpapers and contact photos on prop phones.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>PropPhone needs access to your camera to take photos for custom wallpapers.</string>
+	<string>PropOS uses the camera to capture wallpapers and contact photos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>PropOS uses the microphone to record voicemail audio for prop phones.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 </dict>
 </plist>
